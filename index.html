@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Babysitter Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./process.js"></script>
+  </head>
+  <body>
+
+    <div class="testbox">
+      <form onsubmit="downloadRes()">
+        <div class="banner">
+          <h1>Download Your Certificate</h1>
+        </div>
+        <div class="item">
+            <select id="nameDropdown">
+                <option value="">Select Your Name</option>
+                <option value="Abhijith S">Abhijith S</option>
+                <option value="Aiswarya M Ajay">Aiswarya M Ajay</option>
+                <option value="Amal Raj">Amal Raj</option>
+                <option value="Amrutha Banerjee">Amrutha Banerjee</option>
+                <option value="Anandik N Anand">Anandik N Anand</option>
+                <option value="Aneena Shibu">Aneena Shibu</option>
+                <option value="Anjali Raj">Anjali Raj</option>
+                <option value="Annapurna Padmanabhan">Annapurna Padmanabhan</option>
+                <option value="Ansu Rose Joseph">Ansu Rose Joseph</option>
+                <option value="Ardhra A M">Ardhra A M</option>
+                <option value="Bibungsarth Islary">Bibungsarth Islary</option>
+                <option value="Dineshkumar P">Dineshkumar P</option>
+                <option value="Jery Joel">Jery Joel</option>
+                <option value="Julaila Beevi">Julaila Beevi</option>
+                <option value="Lakshmi Sundar">Lakshmi Sundar</option>
+                <option value="Macgill John F">Macgill John F</option>
+                <option value="Malavika D">Malavika D</option>
+                <option value="Marcie. M">Marcie. M</option>
+                <option value="Priya Patel">Priya Patel</option>
+                <option value="Revington P">Revington P</option>
+                <option value="Sai Shankar G Nair">Sai Shankar G Nair</option>
+                <option value="Sharanya.M.K">Sharanya.M.K</option>
+                <option value="Sivakami P">Sivakami P</option>
+                <option value="Smitha Rani B S">Smitha Rani B S</option>
+                <option value="Sneha Mary Michael">Sneha Mary Michael</option>
+                <option value="Sooraj P S">Sooraj P S</option>
+                <option value="Soumya Pal">Soumya Pal</option>
+                <option value="Suni Sajimon">Suni Sajimon</option>
+                <option value="T M Nidhin">T M Nidhin</option>
+                <option value="Yash Samson Lyall">Yash Samson Lyall</option>
+              </select>
+        </div>
+
+
+        <div class="question">
+            <p>Choose the event</p>
+            <input type="radio" class="radio" id="competition" name="events" value="competition">
+            <label for="competition" class="radio"><span>Quiz and Crossword</span></label>
+        
+            <input type="radio" class="radio" id="experttalk" name="events" value="experttalk">
+            <label for="experttalk" class="radio"><span>Expert Talk</span></label>
+        </div>
+        
+        
+        
+
+        <div class="item">
+          <p>Email</p>
+          <input type="email" name="name">
+        </div>
+        
+        
+        
+        
+        
+        <div class="btn-block">
+          <input type="submit" id="submitBtn" name="submit" value="Download Certificate">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
